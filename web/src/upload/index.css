@@ -1,0 +1,86 @@
+#upload-container {
+  padding-top: 36px;
+}
+
+#upload-img-placeholder {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(230, 230, 230);
+  background: rgb(250, 250, 253);
+  margin-left: 16px;
+}
+
+#upload-img-placeholder > img {
+  width: 40px;
+  height: 30px;
+}
+
+#upload-img-placeholder > span {
+  font-size: 14px;
+  color: rgb(195, 194, 204);
+}
+
+.upload-name {
+  width: 200px;
+}
+
+.upload-label {
+  font-size: 18px;
+  width: 80px;
+}
+
+#product-description {
+  height: 150px;
+}
+
+#submit-button {
+  float: right;
+  background-color: rgb(30, 120, 255);
+  color: white;
+  border: none;
+  margin-top: 16px;
+}
+
+#upload-img {
+  width: 200px;
+  height: 200px;
+  margin-left: 16px;
+  object-fit: contain;
+}
+
+.button1 {
+  position: relative;
+  cursor: pointer;
+  border: none;
+  max-width: 150px;
+  padding: 12px;
+  transition: 0.3s;
+  color: rgb(33, 33, 33);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-left: 20px;
+}
+button {
+  position: relative;
+  cursor: pointer;
+  border: none;
+  max-width: 150px;
+  padding: 12px;
+  transition: 0.3s;
+  color: rgb(33, 33, 33);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-right: 5px;
+}
+button:focus {
+  transition: 0.3s;
+  background-color: rgb(55, 55, 55);
+  color: aliceblue;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 0px;
+}

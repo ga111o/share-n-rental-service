@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+html,
+body,
+#root,
+#root > div {
+  height: 120%;
+}
+
+#header {
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 30px 0;
+}
+
+#header-area {
+  width: 1324px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#header-area img {
+  width: 128px;
+  height: 36px;
+}
+
+#cardSet {
+  margin-left: 100px;
+  width: 1324px;
+  display: flex;
+  justify-content: center;
+}
+
+#bannerSet {
+  background-color: aqua;
+  width: 300px;
+  height: 900px;
+  justify-content: space-between;
+  margin-right: 100px;
+}
+
+#body {
+  height: 100vh;
+  width: 924px;
+  margin: 0 auto;
+  padding-bottom: 24px;
+  justify-content: space-between;
+}
+
+#footer {
+  height: 200px;
+  background-color: rgb(230, 230, 230);
+}
+/* 
+헤더 1324
+바디 1324
+카드셋 924
+배너 300
+*/
+button {
+  position: relative;
+  cursor: pointer;
+  border: none;
+  max-width: 150px;
+  padding: 12px;
+  transition: 0.3s;
+  color: rgb(33, 33, 33);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-right: 5px;
+}
+button:hover {
+  transition: 0.3s;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 0px;
+}

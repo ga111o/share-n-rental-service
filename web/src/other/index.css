@@ -1,0 +1,73 @@
+#image-box {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#image-box > img {
+  height: 100%;
+}
+
+#profile-box {
+  padding: 16px;
+  margin-top: 8px;
+  border-bottom: 1px solid #e9ecef;
+  display: flex;
+  align-items: center;
+}
+
+#profile-box > img {
+  width: 50px;
+  height: 50px;
+}
+
+#profile-box > span {
+  font-size: 15px;
+  margin-left: 8px;
+  font-weight: 600;
+}
+
+#contents-box {
+  padding: 16px;
+}
+
+#name {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#price {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#createdAt {
+  font-size: 12px;
+  color: rgb(204, 204, 204);
+}
+
+#description {
+  margin-top: 16px;
+}
+
+.abutton {
+  position: relative;
+  cursor: pointer;
+  border: none;
+  max-width: 150px;
+  padding: 12px;
+  transition: 0.3s;
+  color: rgb(33, 33, 33);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-right: 105px;
+  background-color: rgb(233, 233, 233);
+  float: right;
+}
+.abutton:hover {
+  transition: 0.3s;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 0px;
+  color: rgb(33, 33, 33);
+}

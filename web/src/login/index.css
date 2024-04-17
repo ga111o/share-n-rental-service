@@ -1,0 +1,20 @@
+.abutton2 {
+  position: relative;
+  cursor: pointer;
+  border: none;
+  max-width: 150px;
+  padding: 12px;
+  transition: 0.3s;
+  color: rgb(33, 33, 33);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-right: 105px;
+  background-color: rgb(233, 233, 233);
+  float: right;
+}
+.abutton2:hover {
+  transition: 0.3s;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 0px;
+  color: rgb(33, 33, 33);
+}
